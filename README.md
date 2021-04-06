@@ -3,12 +3,14 @@ Hacking/Control Windows
 
 
 # Downloading
+```
 1. Open Terminal
 2. git clone https://github.com/Sn8ow/PretteR/
 3. cd PretteR
 4. chmod 777 *
 5. ./pretter.sh (ROOT OPEN)
 6. Finish
+```
 
 
 # Errors
