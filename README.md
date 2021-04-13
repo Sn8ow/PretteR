@@ -26,3 +26,11 @@ Finish
  
  # FIX
  In Terminal: apt-get install mono-devel 
+ # Fix E: Could not get mono-devel package
+```
+echo "deb https://d2nlctn12v279m.cloudfront.net/repo/mono/ubuntu bionic main" | tee /etc/apt/sources.list.d/mono-extra.list  
+
+apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys CB2DE8E5
+
+apt-get update
+```
