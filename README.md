@@ -7,7 +7,7 @@ Hacking/Control Windows
 Open Terminal
 git clone https://github.com/Sn8ow/PretteR/
 cd PretteR
-chmod 777 *
+chmod 777 * (ROOT)
 ./pretter.sh (ROOT OPEN)
 Finish
 ```
