@@ -1,4 +1,10 @@
 # <h1 align="center">PretteR</h1>
+<p align="center">
+  <a href="#Downloading">Downloading</a> |
+  <a href="Errors">Errors</a> |
+  <a href="#contributors">Contributors</a> |
+  <a href="Fix">Fix<a/a> 
+</p>
   <br/>
   <br/>
   <a href="https://discord.gg/TR5XDAAef5" target="_blank">
