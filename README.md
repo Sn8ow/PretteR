@@ -1,5 +1,5 @@
 # <h1 align="center">PretteR</h1>
-<h1 align="left">Hacking/Control Windows</h1>
+Hacking/Control Windows
 
 
 # Downloading
