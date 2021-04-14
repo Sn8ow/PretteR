@@ -3,7 +3,7 @@
   <a href="#Downloading">Downloading</a> |
   <a href="Errors">Errors</a> |
   <a href="#contributors">Contributors</a> |
-  <a href="Fix">Fix<a/a> 
+  <a href="Fix">FIX<a/a> 
 </p>
   <br/>
   <br/>
